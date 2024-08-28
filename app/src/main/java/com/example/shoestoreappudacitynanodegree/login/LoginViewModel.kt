@@ -5,6 +5,7 @@ import androidx.lifecycle.ViewModel
 class LoginViewModel : ViewModel() {
     private var loginList = HashMap<String, String>()
 
+
     init {
         userCredentials()
     }
